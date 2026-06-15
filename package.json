@@ -1,0 +1,17 @@
+{
+  "name": "gunyah-gorilla-update-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that monitors Gunyah's Gorilla Horror for Meta Quest updates and extracts il2cpp config",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "register": "node register_commands.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}
