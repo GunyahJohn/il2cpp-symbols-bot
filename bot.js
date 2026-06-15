@@ -18,13 +18,13 @@ const path = require("path");
 
 // ─── Config ──────────────────────────────────────────────────────────────────
 
-const APP_ID = "1053210461217146"; // Gunyah's Gorilla Horror
-const META_API_URL = `https://www.meta.com/en-gb/experiences/gunyahs-gorilla-horror/${APP_ID}/`;
+const APP_ID = "7190422614401072"; // Gunyah's Gorilla Horror
+const META_API_URL = `https://www.meta.com/en-gb/experiences/animal-company/${APP_ID}/`;
 
 // APKPure download URL pattern for Meta Quest apps (sidequest/apkpure mirror)
 // We use APKPure's API to fetch the latest APK info
 const APKPURE_API = "https://api.pureapk.com/m/v3/cms/app_version_list";
-const PACKAGE_NAME = "com.gunyah.gorillahorror"; // adjust if different
+const PACKAGE_NAME = "woosterGames.animalCompany"; // adjust if different
 
 // State file to persist last known version between restarts
 const STATE_FILE = path.join(__dirname, "last_version.json");
